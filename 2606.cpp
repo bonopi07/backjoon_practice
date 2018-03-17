@@ -4,7 +4,7 @@
 bool visited[MAX_N];
 int computer[MAX_N][MAX_N];
 
-void bfs(int n)
+void dfs(int n)
 {
   if (visited[n])
     return;
@@ -13,7 +13,7 @@ void bfs(int n)
 
   for (int i = 0; i < MAX_N; ++i) {
     if (computer[n][i]) {
-      bfs(i);
+      dfs(i);
     }
   }
 }
@@ -32,7 +32,7 @@ int main()
     computer[_in.first][_in.second] = computer[_in.second][_in.first] = 1;
   }
 
-  bfs(0);
+  dfs(0);
 
   int s = 0;
   for (int i = 1; i < comN; ++i) {
