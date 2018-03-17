@@ -29,7 +29,7 @@ int main()
 	std::sort(ab, ab + n * n);
 	std::sort(cd, cd + n * n);
 
-	long long cnt = 0, result = 0;
+	long long cnt = 0;
 	for (int i = 0; i < n*n; ++i) {
 		int lowBnd = std::lower_bound(cd, cd + n * n, -ab[i]) - cd;
 		int uppBnd = std::upper_bound(cd, cd + n * n, -ab[i]) - cd;
