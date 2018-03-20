@@ -1,6 +1,23 @@
-# boj
-backjoon problem solution
+# Backjoon Problem Solution
 
+## Basic Information
+- Author : Seongmin Jeong (Allen)
+- BoJ ID : bonopi07
+- Programming Language : C++
 
-## sort(basic)
-- 2751, 11650, 11651, 10814, 10825, 10989, 11652, 11004, 1377
+## Categories
+
+### basic problem
+- 10430, 2609
+
+### sorting
+- 2751, 11650, 11651, 10814, 10825, 10989, 11652, 11004, 1377, 1931
+
+### dynamic programming
+- 11052, 11726, 11727, 1463, 9095
+
+### binary search
+- 1654, 1992, 7453
+
+### Brute Force (or Brute Force Search)
+- 2606
