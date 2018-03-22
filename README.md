@@ -19,5 +19,5 @@
 ### binary search
 - 1654, 1992, 7453
 
-### Brute Force (or Brute Force Search)
-- 2606
+### Brute Force (or Brute Force Search), back-tracking
+- 2606, 9663
